@@ -9,3 +9,5 @@
 - Longitude - Number
 - Created At - DateTime
 - Updated At - DateTime
+
+# npx eslint --init

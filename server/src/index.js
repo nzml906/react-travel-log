@@ -12,6 +12,12 @@ app.use(
   })
 );
 
+app.get("/", (req, res) => {
+  res.json({
+    message: "Hello World!",
+  });
+});
+
 const port = process.env.PORT || 1337;
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);

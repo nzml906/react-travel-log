@@ -35,8 +35,6 @@ function App() {
           key={entry._id}
           latitude={entry.latitude}
           longitude={entry.longitude}
-          offsetLeft={-20}
-          offsetTop={-10}
         >
           <svg
             className="marker yellow"

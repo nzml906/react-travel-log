@@ -24,12 +24,17 @@ function App() {
     getEntries();
   }, []);
 
+  const showAddMarkerPopup = (event) => {
+    console.log(event);
+  };
+
   return (
     <ReactMapGL
       {...viewport}
       mapStyle="mapbox://styles/thecjreynolds/ck117fnjy0ff61cnsclwimyay"
       mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_TOKEN}
       onViewportChange={(nextViewport) => setViewport(nextViewport)}
+      onDblClick={showAddMarkerPopup}
     >
       {logEntries.map((entry) => (
         <React.Fragment key={entry._id}>

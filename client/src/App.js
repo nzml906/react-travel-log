@@ -19,7 +19,6 @@ function App() {
   const getEntries = async () => {
     const logEntries = await listLogEntries();
     setLogEntries(logEntries);
-    console.log(logEntries);
   };
 
   useEffect(() => {

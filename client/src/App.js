@@ -132,6 +132,17 @@ function App() {
               </svg>
             </div>
           </Marker>
+          <Popup
+            latitude={addEntryLocation.latitude}
+            longitude={addEntryLocation.longitude}
+            closeButton={true}
+            closeOnClick={false}
+            dynamicPosition={true}
+            onClose={() => setAddEntryLocation(null)}
+            anchor="top"
+          >
+            <div className="popup">You just clicked here</div>
+          </Popup>
         </>
       ) : null}
     </ReactMapGL>

@@ -143,7 +143,7 @@ function App() {
             anchor="top"
           >
             <div className="popup">
-              <LogEntryForm />
+              <LogEntryForm location={addEntryLocation} />
             </div>
           </Popup>
         </>

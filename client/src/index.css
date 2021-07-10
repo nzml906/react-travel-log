@@ -13,6 +13,9 @@ body {
 .marker.yellow path {
   fill: #f3b73e;
 }
+.marker.red path {
+  fill: #f05305;
+}
 .popup {
   width: 40vw;
   padding: 1rem;

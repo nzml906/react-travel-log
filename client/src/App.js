@@ -143,7 +143,13 @@ function App() {
             anchor="top"
           >
             <div className="popup">
-              <LogEntryForm location={addEntryLocation} />
+              <LogEntryForm
+                onClose={() => {
+                  setAddEntryLocation(null);
+                  getEntries();
+                }}
+                location={addEntryLocation}
+              />
             </div>
           </Popup>
         </>

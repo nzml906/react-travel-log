@@ -1,22 +1,21 @@
-# Full Stack Travel Log
+# Travel Log
 
-A full stack application to store / list places you have traveled.
+A full stack application to list places you have traveled.
 
-### TODO
+### INSTALLATION
 
-- [x] Setup Server
-  - [x] Install Dependencies
-  - [x] Install / Setup Linter
-  - [x] Setup Express App
-  - [x] Setup Not Found and Error Middlewares
-- [x] Model DB
-  - What data will we store?
-- [x] Setup Mongoose Model(s)
-- [x] POST /logs
-  - Create a new log entry
-- [x] GET / logs
-  - List all log entries
-- [x] Setup Client
-- [x] Create Form to add a new entry
-- [x] Setup Map SDK on client
-- [x] List all log entries on map
+- [x] Setup server
+
+  - [x] open terminal in server directory
+  - [x] run npm i
+  - [x] create a .env file in server directory
+  - [x] fill up environment variables
+  - [x] run npm start
+
+- [x] Setup client
+
+  - [x] open terminal in client directory
+  - [x] run npm i
+  - [x] create a .env file in client directory
+  - [x] fill up environment variables
+  - [x] run npm start

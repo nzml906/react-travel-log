@@ -1,6 +1,6 @@
-# Travel Log
+# Travelex
 
-A full stack application to list places you have traveled.
+A full stack application (MERN) to list places you have traveled.
 
 ### INSTALLATION
 

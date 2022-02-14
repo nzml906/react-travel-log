@@ -8,7 +8,7 @@ A full stack application (MERN) to list places you have traveled.
 
   - [x] open terminal in server directory
   - [x] run npm i
-  - [x] create a .env file in server directory
+  - [x] cp .env.example .env
   - [x] fill up environment variables
   - [x] run npm start
 
@@ -16,6 +16,6 @@ A full stack application (MERN) to list places you have traveled.
 
   - [x] open terminal in client directory
   - [x] run npm i
-  - [x] create a .env file in client directory
+  - [x] cp .env.example .env
   - [x] fill up environment variables
   - [x] run npm start
